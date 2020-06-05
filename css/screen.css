@@ -1,0 +1,219 @@
+﻿/*global css*/
+
+body { font-family: 'arial', sans-serif; background: #fff; margin: 0; font-size: 16px; color: #1a1a1a; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -ms-overflow-style: scrollbar; overflow-x: hidden; }
+
+h1{ font-size: 3.125rem; font-weight: 400; }
+h2{ font-size: 3rem; font-weight: 400; }
+
+a, a:focus { color: #ef4a25; text-decoration: none; }
+a:hover {  text-decoration: none; }
+p a { text-decoration: none; }
+p a:hover { text-decoration: underline; }
+
+img { max-width: 100%; }
+input:focus, textarea:focus, button:focus { outline: none; box-shadow: none; }
+textarea.form-control { height: auto; }
+p{
+	margin-bottom: 0px;
+}
+
+.row-sm-padding { margin-left: -5px; margin-right: -5px; }
+.row-sm-padding > [class*="col-"], .row-sm-padding > .col { padding-left: 5px; padding-right: 5px; }
+.container-fluid { max-width:1600px;}
+/*----------------------------------------------------------------------*/
+
+
+body{
+	max-width: 570px;
+	margin: 0 auto;
+}
+
+input{
+	    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #cccccc;
+	font-size: 20px;
+	padding: 0 5px;
+}
+.header>span{
+	color:black;
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+.online{
+	display: flex;
+	justify-content: space-between;
+	margin: 25px 0;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0 5px;
+}
+.color-grey{
+	color: #cccccc;
+}
+.color-pink{
+	color:pink;
+}
+.color-blue{
+	color: lightblue;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px 2px 0;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+.dot{
+	position: absolute;
+    background-color: pink;
+    border: 2px solid white;
+    z-index: 1;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 75%;
+}
+.circle{
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    position: relative;
+}
+.img1{
+	background-image: url(../images/img1.jpg);
+}
+.img2{
+	background-image: url(../images/img2.jpg);
+}
+.img3{
+	background-image: url(../images/img3.jpg);
+}
+.img4{
+	background-image: url(../images/img4.jpg);
+}
+.img5{
+	background-image: url(../images/img5.jpg);
+}
+.img6{
+	background-image: url(../images/img6.jpg);
+}
+.img7{
+	background-image: url(../images/img7.jpg);
+}
+.img8{
+	background-image: url(../images/img8.jpg);
+}
+.img9{
+	background-image: url(../images/img9.jpg);
+}
+.img10{
+	background-image: url(../images/img10.jpg);
+}
+.img11{
+	background-image: url(../images/img11.jpg);
+}
+.img12{
+	background-image: url(../images/img12.jpg);
+}
+.img13{
+	background-image: url(../images/img13.jpg);
+}
+.img14{
+	background-image: url(../images/img14.jpg);
+}
+
+.chatset{
+	margin-top: 25px;
+	overflow: auto;
+	white-space: nowrap;
+	max-height: 395px;
+}
+.chat{
+	display: flex;
+	margin: 10px 0;
+    padding: 0 5px;
+}
+.chat-name{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 5px;
+	flex-wrap: wrap;
+}
+.time{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: auto;
+	align-items: center;
+}
+.time img{
+	margin-left: -10px;
+	max-width:35%;
+}
+.name{
+	font-size: 17px;
+}
+.last-message{
+	font-size: 14px;
+}
+.number{
+	border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background: pink;
+    border: pink;
+    color: white;
+    font: 13px Arial, sans-serif;
+}
+.hidden {
+	display: none;
+}
+#search-box{
+	padding-top: 10px;
+	padding-left: 5px;
+	display: none;
+}
+/*-------------------------------------------------------------
+------------------@media Rule Start--------------------------*/
+@media only screen and (min-width:1300px){
+}
+/* ------------------------ SMALL DESKTOP ------------------------*/
+@media only screen and (min-width:992px) and (max-width:1169px) {
+
+}
+
+
+/* ------------------------ TABLET ------------------------*/
+@media only screen and (min-width:768px) and (max-width:991px) {
+   
+}
+/* ------------------------ Mobile ------------------------*/
+@media only screen and (max-width:767px) {
+}
+
